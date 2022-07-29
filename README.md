@@ -14,7 +14,7 @@ Run `npm start` to generate files for the following themes:
 - messageMediaTheme.json
 - sinchSmbTheme.json
 
-### Replace theme files in the [library](https://bitbucket.org/simpletexting/ui-kit)
+#### Replace theme files in the [library](https://bitbucket.org/simpletexting/ui-kit)
 
 If the **_hive-design-tokens_** an **_ui-kit_** repositories are stored in the same folder, then just run `npm run move` command to copy theme files to the proper directory. Alternatively you can move theme files to the **_ui-kit_** repository manually.
 
