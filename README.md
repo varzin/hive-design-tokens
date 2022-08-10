@@ -4,7 +4,7 @@ Hive is a design system created for SinchSMB and child products. This repository
 
 ## Usage
 
-Instal dependencies `npm i` first.
+Instal dependencies `npm i` first
 
 ### Automatic theme generation
 
