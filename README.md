@@ -20,4 +20,4 @@ If the **_hive-design-tokens_** an **_ui-kit_** repositories are stored in the s
 
 ### Manual theme generation
 
-If you want use custom parameters to generate theme files follow the readme of [MkTheme](https://www.npmjs.com/package/@sinchsmb/mktheme) tool.
+If you want use custom parameters to generate theme files follow the readme of [MkTheme](https://www.npmjs.com/package/@sinchsmb/mktheme) tool
