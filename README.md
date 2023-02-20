@@ -1,3 +1,5 @@
+[![Build](https://github.com/imasalygin/hive-design-tokens/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/imasalygin/hive-design-tokens/actions/workflows/build.yml)
+
 # Hive design system tokens
 
 Hive is a design system created for SinchSMB and child products. This repository contains design tokens generated using [Figma Tokens](https://docs.tokens.studio) plugin from [Hive design file](https://www.figma.com/file/ba5gOeZ2Bb2EPFF0gAlDM5/%F0%9F%90%9D-Hive).
