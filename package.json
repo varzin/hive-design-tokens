@@ -13,8 +13,5 @@
   "bugs": {
     "url": "https://github.com/varzin/Hive-design-tokens/issues"
   },
-  "homepage": "https://github.com/varzin/Hive-design-tokens#readme",
-  "dependencies": {
-    "@sinchsmb/mktheme": "^0.2.1"
-  }
+  "homepage": "https://github.com/varzin/Hive-design-tokens#readme"
 }
