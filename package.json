@@ -4,7 +4,21 @@
   "description": "Hive is a design system created for SinchSMB and child products. This repository contains design tokens generated using [Figma Tokens](https://docs.tokens.studio) plugin from [Hive design file](https://www.figma.com/file/ba5gOeZ2Bb2EPFF0gAlDM5/%F0%9F%90%9D-Hive).",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t simpleTextingTheme Themes/simpleTextingTheme.json && mktheme -f tokens.json -t messageMediaTheme Themes/messageMediaTheme.json && mktheme -f tokens.json -t sinchSmbTheme Themes/sinchSmbTheme.json",
+    "start": "npm run -s build:SinchSMB & npm run -s build:Spark & npm run -s build:WholeSaleSms & npm run -s build:SMSBroadcast & npm run -s build:StreetData & npm run -s build:DirectSMS & npm run -s build:MessageNet & npm run -s build:2Degree & npm run -s build:Bulletin & npm run -s build:Mobipost & npm run -s build:SMSCentral & npm run -s build:Vodafone & npm run -s build:SimpleTexting & npm run -s build:MessageMedia",
+    "build:SinchSMB": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t 'Sinch SMB' Themes/SinchSMB.json",
+    "build:Spark": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t Spark Themes/Spark.json",
+    "build:WholeSaleSms": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t WholeSaleSms Themes/WholeSaleSms.json",
+    "build:SMSBroadcast": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t 'SMS Broadcast' Themes/SMSBroadcast.json",
+    "build:StreetData": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t StreetData Themes/StreetData.json",
+    "build:DirectSMS": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t 'Direct SMS' Themes/DirectSMS.json",
+    "build:MessageNet": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t 'Message Net' Themes/MessageNet.json",
+    "build:2Degree": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t '2 Degree' Themes/2Degree.json",
+    "build:Bulletin": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t Bulletin Themes/Bulletin.json",
+    "build:Mobipost": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t Mobipost Themes/Mobipost.json",
+    "build:SMSCentral": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t 'SMS Central' Themes/SMSCentral.json",
+    "build:Vodafone": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t Vodafone Themes/Vodafone.json",
+    "build:SimpleTexting": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t SimpleTexting Themes/SimpleTexting.json",
+    "build:MessageMedia": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t MessageMedia Themes/MessageMedia.json",
     "move": "cp ./Themes/simpleTextingTheme.json ../ui-kit/.storybook/themes/ && cp ./Themes/messageMediaTheme.json ../ui-kit/.storybook/themes/ && cp ./Themes/sinchSmbTheme.json ../ui-kit/.storybook/themes/"
   },
   "repository": {
