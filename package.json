@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Hive is a design system created for SinchSMB and child products. This repository contains design tokens generated using [Figma Tokens](https://docs.tokens.studio) plugin from [Hive design file](https://www.figma.com/file/ba5gOeZ2Bb2EPFF0gAlDM5/%F0%9F%90%9D-Hive).",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "if [ ! -d ./Themes ]; then mkdir -p ./Themes; fi && mktheme -f tokens.json -t simpleTextingTheme Themes/simpleTextingTheme.json && mktheme -f tokens.json -t messageMediaTheme Themes/messageMediaTheme.json && mktheme -f tokens.json -t sinchSmbTheme Themes/sinchSmbTheme.json",
-    "move": "cp ./Themes/simpleTextingTheme.json ../ui-kit/.storybook/themes/ && cp ./Themes/messageMediaTheme.json ../ui-kit/.storybook/themes/ && cp ./Themes/sinchSmbTheme.json ../ui-kit/.storybook/themes/"
+    "build": "node ./build.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +13,5 @@
   "bugs": {
     "url": "https://github.com/varzin/Hive-design-tokens/issues"
   },
-  "homepage": "https://github.com/varzin/Hive-design-tokens#readme",
-  "dependencies": {
-    "@sinchsmb/mktheme": "^0.2.1"
-  }
+  "homepage": "https://github.com/varzin/Hive-design-tokens#readme"
 }

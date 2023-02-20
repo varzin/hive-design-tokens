@@ -1,23 +1,13 @@
+[![Build](https://github.com/varzin/hive-design-tokens/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/varzin/hive-design-tokens/actions/workflows/build.yml)
+
 # Hive design system tokens
 
 Hive is a design system created for SinchSMB and child products. This repository contains design tokens generated using [Figma Tokens](https://docs.tokens.studio) plugin from [Hive design file](https://www.figma.com/file/ba5gOeZ2Bb2EPFF0gAlDM5/%F0%9F%90%9D-Hive).
 
-## Usage
+## Themes
+Themes generated on the tokens base are placed in the `./themes` directory.
 
-Instal dependencies `npm i` first
+### Theme generation
 
-### Automatic theme generation
-
-Run `npm start` to generate files for the following themes:
-
-- simpleTextingTheme.json
-- messageMediaTheme.json
-- sinchSmbTheme.json
-
-#### Replace theme files in the [library](https://bitbucket.org/simpletexting/ui-kit)
-
-If the **_hive-design-tokens_** an **_ui-kit_** repositories are stored in the same folder, then just run `npm run move` command to copy theme files to the proper directory. Alternatively you can move theme files to the **_ui-kit_** repository manually.
-
-### Manual theme generation
-
-If you want use custom parameters to generate theme files follow the readme of [MkTheme](https://www.npmjs.com/package/@sinchsmb/mktheme) tool
+Themes files are generated automatically via GitHub workflows.
+But you can use the `npm run build` command to create them manually.
