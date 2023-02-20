@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Hive is a design system created for SinchSMB and child products. This repository contains design tokens generated using [Figma Tokens](https://docs.tokens.studio) plugin from [Hive design file](https://www.figma.com/file/ba5gOeZ2Bb2EPFF0gAlDM5/%F0%9F%90%9D-Hive).",
   "scripts": {
-    "build": "./bin/build.js"
+    "build": "node ./build.js"
   },
   "repository": {
     "type": "git",
