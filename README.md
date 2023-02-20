@@ -1,4 +1,4 @@
-[![Build](https://github.com/imasalygin/hive-design-tokens/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/imasalygin/hive-design-tokens/actions/workflows/build.yml)
+[![Build](https://github.com/varzin/hive-design-tokens/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/varzin/hive-design-tokens/actions/workflows/build.yml)
 
 # Hive design system tokens
 
