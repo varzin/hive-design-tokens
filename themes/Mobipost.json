@@ -395,6 +395,22 @@
           "hover": "rgb(79, 34, 32)"
         }
       }
+    },
+    "datepicker": {
+      "day": {
+        "text": {
+          "default": "rgb(27, 27, 27)",
+          "hover": "rgb(79, 34, 32)",
+          "selected": "rgb(255, 255, 255)",
+          "disabled": "rgb(158, 158, 158)"
+        },
+        "background": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgb(250, 239, 238)",
+          "selected": "rgb(79, 34, 32)",
+          "disabled": "rgba(0, 0, 0, 0)"
+        }
+      }
     }
   }
 }
