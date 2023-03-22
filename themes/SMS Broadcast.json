@@ -402,13 +402,15 @@
           "default": "rgb(27, 27, 27)",
           "hover": "rgb(77, 37, 12)",
           "selected": "rgb(255, 255, 255)",
-          "disabled": "rgb(158, 158, 158)"
+          "outsideMonth": "rgb(158, 158, 158)",
+          "outsideMonthSelected": "rgb(255, 255, 255)"
         },
         "background": {
           "default": "rgba(0, 0, 0, 0)",
           "hover": "rgb(252, 238, 230)",
           "selected": "rgb(77, 37, 12)",
-          "disabled": "rgba(0, 0, 0, 0)"
+          "outsideMonth": "rgba(0, 0, 0, 0)",
+          "outsideMonthSelected": "rgb(158, 158, 158)"
         }
       }
     }
