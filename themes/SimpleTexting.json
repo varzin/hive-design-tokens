@@ -413,6 +413,11 @@
           "outsideMonthSelected": "rgb(158, 158, 158)"
         }
       }
+    },
+    "number-field": {
+      "suffix-button": {
+        "radius": "4px"
+      }
     }
   }
 }
