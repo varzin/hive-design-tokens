@@ -414,8 +414,10 @@
         }
       }
     },
-    "numberfield": {
-      "radius": "4px"
+    "number-field": {
+      "suffix-button": {
+        "radius": "4px"
+      }
     }
   }
 }
