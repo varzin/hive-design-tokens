@@ -414,9 +414,12 @@
         }
       }
     },
-    "number-field": {
+    "numberfield": {
       "suffix-button": {
-        "radius": "4px"
+        "radius": "4px",
+        "background": {
+          "hover": "rgb(250, 239, 238)"
+        }
       }
     }
   }
