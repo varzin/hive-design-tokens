@@ -223,30 +223,6 @@
     "navigation": {
       "focus": {
         "shadow": "inset 0px 0px 0px 3px rgb(88, 179, 236)"
-      },
-      "top-level": {
-        "text": {
-          "default": "rgb(48, 48, 48)",
-          "hover": "rgb(48, 48, 48)",
-          "active": "rgb(255, 255, 255)"
-        },
-        "background": {
-          "default": "rgb(247, 247, 247)",
-          "hover": "rgb(240, 240, 240)",
-          "active": "rgb(71, 71, 71)"
-        }
-      },
-      "sub-level": {
-        "text": {
-          "default": "rgb(48, 48, 48)",
-          "hover": "rgb(48, 48, 48)",
-          "active": "rgb(255, 255, 255)"
-        },
-        "background": {
-          "default": "rgb(247, 247, 247)",
-          "hover": "rgb(240, 240, 240)",
-          "active": "rgb(71, 71, 71)"
-        }
       }
     },
     "button": {
