@@ -220,11 +220,6 @@
     }
   },
   "comp": {
-    "navigation": {
-      "focus": {
-        "shadow": "inset 0px 0px 0px 3px rgb(88, 179, 236)"
-      }
-    },
     "button": {
       "primary": {
         "background": {
