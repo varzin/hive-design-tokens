@@ -420,8 +420,8 @@
       "rounded": {
         "radius": "8px"
       },
-      "gradient": "linear-gradient(90deg, rgb(247, 247, 247) 0.3%, rgb(247, 247, 247) 13.54%, rgb(238, 238, 238) 39.58%, rgb(247, 247, 247) 49.48%, rgb(247, 247, 247) 100%);",
-      "background": "rgb(247, 247, 247)"
+      "gradient": "linear-gradient(90deg, rgb(238, 238, 238) 0.3%, rgb(238, 238, 238) 13.54%, rgb(247, 247, 247) 39.58%, rgb(238, 238, 238) 49.48%, rgb(238, 238, 238) 100%);",
+      "background": "rgb(238, 238, 238)"
     },
     "button-group": {
       "radius-between": "0px"
