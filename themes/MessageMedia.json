@@ -164,7 +164,7 @@
       "white": "rgb(255, 255, 255)",
       "transparent": "rgba(0, 0, 0, 0)",
       "primary": {
-        "default": "rgb(51, 117, 209)",
+        "default": "rgb(30, 120, 175)",
         "backdrop": {
           "hover": "rgb(242, 243, 245)",
           "active": "rgb(234, 241, 250)"
@@ -223,18 +223,126 @@
     "button": {
       "primary": {
         "background": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(37, 89, 167)",
-          "active": "rgb(28, 68, 125)",
-          "toggled": "rgb(28, 68, 125)",
-          "disabled": "rgb(158, 158, 158)"
+          "default": "rgb(47, 57, 67)",
+          "hover": "rgb(62, 71, 80)",
+          "active": "rgb(224, 224, 224)",
+          "toggled": "rgb(224, 224, 224)",
+          "disabled": "rgb(167, 169, 170)"
         },
         "border": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(37, 89, 167)",
-          "active": "rgb(28, 68, 125)",
-          "toggled": "rgb(28, 68, 125)",
-          "disabled": "rgb(158, 158, 158)"
+          "default": "rgb(47, 57, 67)",
+          "hover": "rgb(62, 71, 80)",
+          "active": "rgb(89, 89, 89)",
+          "toggled": "rgb(89, 89, 89)",
+          "disabled": "rgb(167, 169, 170)"
+        },
+        "text": {
+          "default": "rgb(255, 255, 255)",
+          "hover": "rgb(255, 255, 255)",
+          "active": "rgb(0, 0, 0)",
+          "toggled": "rgb(0, 0, 0)",
+          "disabled": "rgb(245, 245, 246)"
+        },
+        "elevation": {
+          "default": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+          "hover": "0px 0px 0px 0px rgba(0, 0, 0, 0)"
+        }
+      },
+      "default": {
+        "background": {
+          "default": "rgb(245, 245, 246)",
+          "hover": "rgb(238, 238, 240)",
+          "active": "rgb(228, 229, 231)",
+          "toggled": "rgb(228, 229, 231)",
+          "disabled": "rgb(245, 245, 246)"
+        },
+        "border": {
+          "default": "rgb(245, 245, 246)",
+          "hover": "rgb(238, 238, 240)",
+          "active": "rgb(146, 146, 146)",
+          "toggled": "rgb(146, 146, 146)",
+          "disabled": "rgb(245, 245, 246)"
+        },
+        "text": {
+          "default": "rgb(34, 39, 43)",
+          "hover": "rgb(34, 39, 43)",
+          "active": "rgb(34, 39, 43)",
+          "toggled": "rgb(34, 39, 43)",
+          "disabled": "rgb(146, 146, 146)"
+        },
+        "elevation": {
+          "default": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+          "hover": "0px 0px 0px 0px rgba(0, 0, 0, 0)"
+        }
+      },
+      "subtle": {
+        "background": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgb(243, 250, 254)",
+          "active": "rgb(222, 242, 255)",
+          "toggled": "rgb(222, 242, 255)",
+          "disabled": "rgba(0, 0, 0, 0)"
+        },
+        "border": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgb(243, 250, 254)",
+          "active": "rgb(161, 213, 245)",
+          "toggled": "rgb(161, 213, 245)",
+          "disabled": "rgba(0, 0, 0, 0)"
+        },
+        "text": {
+          "default": "rgb(27, 27, 27)",
+          "hover": "rgb(27, 27, 27)",
+          "active": "rgb(27, 27, 27)",
+          "toggled": "rgb(27, 27, 27)",
+          "disabled": "rgb(191, 194, 197)"
+        },
+        "elevation": {
+          "default": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+          "hover": "0px 0px 0px 0px rgba(0, 0, 0, 0)"
+        }
+      },
+      "subtlePrimary": {
+        "background": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgb(243, 250, 254)",
+          "active": "rgb(243, 250, 254)",
+          "toggled": "rgb(243, 250, 254)",
+          "disabled": "rgba(0, 0, 0, 0)"
+        },
+        "border": {
+          "default": "rgba(0, 0, 0, 0)",
+          "hover": "rgb(243, 250, 254)",
+          "active": "rgb(161, 213, 245)",
+          "toggled": "rgb(161, 213, 245)",
+          "disabled": "rgba(0, 0, 0, 0)"
+        },
+        "text": {
+          "default": "rgb(30, 120, 175)",
+          "hover": "rgb(30, 120, 175)",
+          "active": "rgb(30, 120, 175)",
+          "toggled": "rgb(30, 120, 175)",
+          "disabled": "rgb(191, 194, 197)"
+        },
+        "elevation": {
+          "default": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+          "hover": "0px 0px 0px 0px rgba(0, 0, 0, 0)"
+        }
+      },
+      "danger": {
+        "background": {
+          "default": "rgb(209, 61, 66)",
+          "hover": "rgb(239, 88, 88)",
+          "active": "rgb(136, 32, 36)",
+          "toggled": "rgb(136, 32, 36)",
+          "disabled": "rgb(255, 184, 184)"
+        },
+        "border": {
+          "default": "rgb(209, 61, 66)",
+          "hover": "rgb(239, 88, 88)",
+          "active": "rgb(136, 32, 36)",
+          "toggled": "rgb(136, 32, 36)",
+          "disabled": "rgb(255, 184, 184)"
         },
         "text": {
           "default": "rgb(255, 255, 255)",
@@ -244,125 +352,25 @@
           "disabled": "rgb(255, 255, 255)"
         },
         "elevation": {
-          "default": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)",
-          "hover": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)"
-        }
-      },
-      "default": {
-        "background": {
-          "default": "rgb(255, 255, 255)",
-          "hover": "rgb(242, 243, 245)",
-          "active": "rgb(234, 241, 250)",
-          "toggled": "rgb(234, 241, 250)",
-          "disabled": "rgb(255, 255, 255)"
-        },
-        "border": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(51, 117, 209)",
-          "active": "rgb(51, 117, 209)",
-          "toggled": "rgb(51, 117, 209)",
-          "disabled": "rgb(158, 158, 158)"
-        },
-        "text": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(51, 117, 209)",
-          "active": "rgb(51, 117, 209)",
-          "toggled": "rgb(51, 117, 209)",
-          "disabled": "rgb(158, 158, 158)"
-        },
-        "elevation": {
-          "default": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)",
-          "hover": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)"
-        }
-      },
-      "subtle": {
-        "background": {
-          "default": "rgba(0, 0, 0, 0)",
-          "hover": "rgb(242, 243, 245)",
-          "active": "rgb(234, 241, 250)",
-          "toggled": "rgb(234, 241, 250)",
-          "disabled": "rgb(255, 255, 255)"
-        },
-        "border": {
-          "default": "rgba(0, 0, 0, 0)",
-          "hover": "rgb(242, 243, 245)",
-          "active": "rgb(234, 241, 250)",
-          "toggled": "rgb(234, 241, 250)",
-          "disabled": "rgba(0, 0, 0, 0)"
-        },
-        "text": {
-          "default": "rgb(27, 27, 27)",
-          "hover": "rgb(27, 27, 27)",
-          "active": "rgb(27, 27, 27)",
-          "toggled": "rgb(27, 27, 27)",
-          "disabled": "rgb(158, 158, 158)"
-        }
-      },
-      "subtlePrimary": {
-        "background": {
-          "default": "rgba(0, 0, 0, 0)",
-          "hover": "rgb(242, 243, 245)",
-          "active": "rgb(234, 241, 250)",
-          "toggled": "rgb(234, 241, 250)",
-          "disabled": "rgb(255, 255, 255)"
-        },
-        "border": {
-          "default": "rgba(0, 0, 0, 0)",
-          "hover": "rgb(242, 243, 245)",
-          "active": "rgb(234, 241, 250)",
-          "toggled": "rgb(234, 241, 250)",
-          "disabled": "rgba(0, 0, 0, 0)"
-        },
-        "text": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(51, 117, 209)",
-          "active": "rgb(51, 117, 209)",
-          "toggled": "rgb(51, 117, 209)",
-          "disabled": "rgb(158, 158, 158)"
-        }
-      },
-      "danger": {
-        "background": {
-          "default": "rgb(255, 255, 255)",
-          "hover": "rgb(255, 237, 234)",
-          "active": "rgb(255, 216, 213)",
-          "toggled": "rgb(255, 216, 213)",
-          "disabled": "rgb(255, 255, 255)"
-        },
-        "border": {
-          "default": "rgb(209, 61, 66)",
-          "hover": "rgb(209, 61, 66)",
-          "active": "rgb(209, 61, 66)",
-          "toggled": "rgb(209, 61, 66)",
-          "disabled": "rgb(254, 179, 179)"
-        },
-        "text": {
-          "default": "rgb(209, 61, 66)",
-          "hover": "rgb(209, 61, 66)",
-          "active": "rgb(209, 61, 66)",
-          "toggled": "rgb(209, 61, 66)",
-          "disabled": "rgb(254, 179, 179)"
-        },
-        "elevation": {
-          "default": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)",
-          "hover": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)"
+          "default": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+          "hover": "0px 0px 0px 0px rgba(0, 0, 0, 0)"
         }
       }
     },
     "segmented-control": {
       "item": {
-        "radius": "5px",
+        "radius": "2px",
         "background": {
           "default": "rgba(0, 0, 0, 0)",
           "active": "rgb(255, 255, 255)"
         },
         "border": {
           "default": "rgba(0, 0, 0, 0)",
-          "active": "rgb(51, 117, 209)"
+          "active": "rgb(245, 245, 246)"
         },
         "text": {
           "default": "rgb(71, 71, 71)",
-          "active": "rgb(51, 117, 209)"
+          "active": "rgb(34, 39, 43)"
         },
         "elevation": {
           "active": "0px 1px 4px 0px rgba(0, 0, 0, 0.23921568627450981)"
@@ -400,24 +408,24 @@
     "checkbox": {
       "background": {
         "checked": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(51, 117, 209)"
+          "default": "rgb(30, 120, 175)",
+          "hover": "rgb(30, 120, 175)"
         }
       }
     },
     "radio": {
       "background": {
         "checked": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(51, 117, 209)"
+          "default": "rgb(30, 120, 175)",
+          "hover": "rgb(30, 120, 175)"
         }
       }
     },
     "switch": {
       "background": {
         "toggled": {
-          "default": "rgb(51, 117, 209)",
-          "hover": "rgb(51, 117, 209)"
+          "default": "rgb(30, 120, 175)",
+          "hover": "rgb(30, 120, 175)"
         }
       }
     },
@@ -425,7 +433,7 @@
       "day": {
         "text": {
           "default": "rgb(27, 27, 27)",
-          "hover": "rgb(51, 117, 209)",
+          "hover": "rgb(30, 120, 175)",
           "selected": "rgb(255, 255, 255)",
           "outsideMonth": "rgb(158, 158, 158)",
           "outsideMonthSelected": "rgb(255, 255, 255)"
@@ -433,7 +441,7 @@
         "background": {
           "default": "rgba(0, 0, 0, 0)",
           "hover": "rgb(242, 243, 245)",
-          "selected": "rgb(51, 117, 209)",
+          "selected": "rgb(30, 120, 175)",
           "outsideMonth": "rgba(0, 0, 0, 0)",
           "outsideMonthSelected": "rgb(158, 158, 158)"
         }
